@@ -20,5 +20,6 @@ variable "common_tags" {
   type = map(any)
   default = {
     Project     = "expense"
+    Terraform = "true"
   }
 }
